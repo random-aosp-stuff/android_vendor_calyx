@@ -1,5 +1,7 @@
 include vendor/calyx/config/version.mk
 
+-include vendor/calyx-priv/keys/keys.mk
+
 ifneq ($(wildcard vendor/google/gearhead/proprietary/),)
 include device/google/gearhead/device.mk
 include vendor/google/gearhead/gearhead-vendor.mk
