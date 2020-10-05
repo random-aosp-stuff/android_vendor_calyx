@@ -36,4 +36,7 @@
     <!-- Carrier_enabled editable -->
     <bool name="config_allow_edit_carrier_enabled" translatable="false">true</bool>
 
+    <!-- Whether or not device header widget tile should display in device info page -->
+    <bool name="config_show_device_header_in_device_info">false</bool>
+
 </resources>
